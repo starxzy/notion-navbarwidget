@@ -33,7 +33,7 @@
 		.navMenu a {
 			color: #D9730D;
 			text-decoration: none;
-			text-transform: uppercase;
+			text-transform: lowercase;
 			display: inline-block;
 			padding: 6px;
 			border-radius : 5px;
@@ -57,12 +57,12 @@
 
 	<nav class="navMenu  border">
 		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> home</a>
-		<a id="inbox" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> task tracker</a>
-		<a id="week" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-users"></i> groupings</a>
-		<a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-magnifying-class"></i> study room</a>
-		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-folder-closed"></i> class notes</a>
-		<a id="business" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book-bookmark"></i> library</a>
-		<a id="knowledge" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-scroll"></i> lessons</a>
+		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> task tracker</a>
+		<a id="groupings" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-users"></i> groupings</a>
+		<a id="study-room" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-magnifying-glass"></i> study room</a>
+		<a id="notes" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-folder-closed"></i> class notes</a>
+		<a id="library" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book-bookmark"></i> library</a>
+		<a id="lessons" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-scroll"></i> lessons</a>
 	</nav>
 
 
@@ -77,31 +77,19 @@
 		function navigate(id) {
 
 			if (id == 'home')
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "inbox")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "week")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "month")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "projects")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "business")
-				window.open("https://example.com", '_blank').focus();
+				window.open("https://starxgalaxy.notion.site/kel-s-school-planner-c482dee5dbb34b00b11967791fdc23e2?pvs=4", '_blank').focus();
 			else if (id == "tasks")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "knowledge")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "topics")
-				window.open("https://example.com", '_blank').focus();
+				window.open("https://starxgalaxy.notion.site/c4ede4231c294241be893e3f948aeb65?v=4c82580b7fef43d5b17f667c85b918a7&pvs=25", '_blank').focus();
+			else if (id == "groupings")
+				window.open("https://starxgalaxy.notion.site/891da17b032741e69da0a82bb207c635?v=aaf67d3b7684479fbb1e472a6a51cb06&pvs=25", '_blank').focus();
+			else if (id == "study-room")
+				window.open("https://starxgalaxy.notion.site/study-room-190b1e764acc4d2a976b91c8f3bdeed0?pvs=25", '_blank').focus();
 			else if (id == "notes")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "media")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "resourses")
-				window.open("https://example.com3", '_blank').focus();
-			else if (id == "lifewiki")
-				window.open("https://example.com", '_blank').focus();
+				window.open("https://starxgalaxy.notion.site/class-notes-821e50defaff480a899c1c19be5f06c8?pvs=25", '_blank').focus();
+			else if (id == "library")
+				window.open("https://starxgalaxy.notion.site/5fdfe13e307740b596684cbda1babe89?v=1c0ba43198f74f4d9dcc7d6a44f7f548&pvs=25", '_blank').focus();
+			else if (id == "lessons")
+				window.open("https://starxgalaxy.notion.site/2c43672ae5e847c4914715011d36f50a?v=30ded77294f9416f8f88d880923820a1&pvs=25", '_blank').focus();
 
 		}
 	</script>
